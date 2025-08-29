@@ -54,13 +54,14 @@
 ## What is Telnet?
 * An old network protocol which allows users to access computer remotely using command line interface (CLI)
 * It is insecure because it transmits data (including credentials) in plaintext
-* Its successor is known as SSH (port 22)
+* The modern replacement for Telnet (port 23) is SSH (port 22).
 
 ## TakeAway
 * Importance of enumeration before exploitation.
 * How to look for open ports
-* how to connect with telnet
-* Navigate and list contents
+* Learned how to connect to services running on legacy(Old) or unusual ports
+* Understood why Telnet is insecure and why SSH is preferred.
+* Reinforced habit of looking for flags or sensitive files once inside.
 
 ## Note
 * This is a practice scenario. Machines on platforms like TryHackMe are intentionally vulnerable
