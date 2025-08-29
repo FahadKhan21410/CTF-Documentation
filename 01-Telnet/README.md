@@ -66,6 +66,7 @@
 ## Note
 * This is a practice scenario. Machines on platforms like TryHackMe are intentionally vulnerable
 * In real-world situations, gaining root access this easily is highly unlikely.
+> If you enumerate properly, the exploit usually reveals itself 
   
 ## Disclaimer
 
