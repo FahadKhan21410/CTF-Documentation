@@ -1,7 +1,7 @@
-# TryHackMe - Meow (Telnet CTF)
+# HackTheBox - Meow (Telnet CTF)
 
 ## Challenge Info
-* Platform: TryHackMe
+* Platform: HackTheBox
 * Challenge Name: Meow
 * Category: Network (Telnet)
 * Difficulty: Very Easy
