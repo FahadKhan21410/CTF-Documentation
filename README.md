@@ -8,4 +8,4 @@ A collection of my Capture The Flag (CTF) write-ups, documenting my thought proc
 
 ### HackTheBox
 
-* [01 - Exploiting Telnet (Meow Challenge)](https://github.com/FahadKhan21410/CTF-Documentation/tree/main/01-Telnet))]
+* [01 - Exploiting Telnet (Meow Challenge)](https://github.com/FahadKhan21410/CTF-Documentation/tree/main/01-Telnet)]
