@@ -53,7 +53,7 @@
   ftp> ls
   229 Entering Extended Passive Mode (|||13761|)
   150 Here comes the directory listing.
-  -rw-r--r--    1 0        0              32 Jun 04  2021 flag.txt
+  -rw-r--r--    1 0        0              32 Aug 30  2025 flag.txt
   226 Directory send OK.
   ftp>
    
