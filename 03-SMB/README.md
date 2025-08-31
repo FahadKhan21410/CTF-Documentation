@@ -39,17 +39,17 @@
   which indicates that no workgroup is available.
 * Result:
   ```bash
-  <u>Sharename</u>   Type   Comment
-     Admin$          Disk   Remote Admin
-     C$              Disk   Default share
-     IPC$            IPC    Remote IPC
-     WorkShares      Disk
+  Sharename       Type     Comment
+  Admin$          Disk     Remote Admin
+  C$              Disk     Default share
+  IPC$            IPC      Remote IPC
+  WorkShares      Disk
   
 ### Exploring The System
 
 * Let’s try accessing workShares using this command:
   ```bash
-    smbclient -p 445 '\\10.129.1.12\WorkShares
+    smbclient -p 445 \\10.129.1.12\WorkShares
 * Using `ls` to list the contents of the directory
 * Result:
   ```bash
@@ -89,9 +89,10 @@
   UNC paths look like this:
   `\\SERVER\Share\Folder\File.txt`
 * Here’s the breakdown:
-  `\\SERVER → the hostname or IP of the server
+   ```bash
+    \\SERVER → the hostname or IP of the server
     \Share → the name of the shared folder
-    \Folder\File.txt → the path inside the share`
+    \Folder\File.txt → the path inside the share
 
 ## TakeAway
 * Enumeration is key: proper scanning (nmap) reveals the attack surface.
