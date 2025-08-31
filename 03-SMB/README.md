@@ -64,8 +64,8 @@
   `smb: \> get james.P`
 * To view contents of the directory `ls` is used
   ```bash
-    .                                `D          0   Mon Mar 29 04:22:01 2021
-    ..                               `D          0   Mon Mar 29 04:22:01 2021
+    .                                 D          0   Mon Mar 29 04:22:01 2021
+    ..                                D          0   Mon Mar 29 04:22:01 2021
     flag.txt                          D          0   Mon Mar 29 04:22:01 2021
   
 * To view it directly from the SMB shell, we can use this command
